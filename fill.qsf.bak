@@ -1,0 +1,106 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+# Date created = 00:59:34  December 05, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		fill_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY fill
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:59:34  DECEMBER 05, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
+set_global_assignment -name VERILOG_FILE memory_modules/mem_TS.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_TH.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_TD.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_TC.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_QS.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_QH.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_QD.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_QC.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_KS.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_KH.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_KD.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_KC.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_JS.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_JH.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_JD.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_JC.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_AS.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_AH.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_AD.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_AC.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_9S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_9H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_9D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_9C.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_8S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_8H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_8D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_8C.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_7S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_7H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_7D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_7C.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_6S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_6H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_6D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_6C.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_5S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_5H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_5D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_5C.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_4S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_4H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_4D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_4C.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_3S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_3H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_3D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_3C.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_2S.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_2H.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_2D.v
+set_global_assignment -name VERILOG_FILE memory_modules/mem_2C.v
+set_global_assignment -name VERILOG_FILE vga_adapter/vga_pll.v
+set_global_assignment -name VERILOG_FILE vga_adapter/vga_controller.v
+set_global_assignment -name VERILOG_FILE vga_adapter/vga_address_translator.v
+set_global_assignment -name VERILOG_FILE vga_adapter/vga_adapter.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BOARD "DE1-SoC Board"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
